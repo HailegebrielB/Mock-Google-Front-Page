@@ -1,0 +1,49 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+ul {
+    float: right;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 5px;
+    padding: 20px 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    margin-bottom: 5%;
+    padding: 0px;
+}
+
+    #logo img {
+        width: 50%
+    }
+
+#searchbar {
+    display: flex;
+    justify-content: center;
+}
+
+    #searchbar input[type = "text"] {
+        border-radius: 5px;
+        width: 75%;
+    }
